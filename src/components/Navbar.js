@@ -40,7 +40,7 @@ navigate("/login")
       
      <Link className="btn bg-white text-success mx-1" to="/createuser">Signup</Link> 
      </div>:<div>
-     <Link className="btn bg-white text-success mx-2" to='/cart'>My Cart {" "}/*<Badge pill-bg='danger'>{data.length} </Badge>*/
+     <Link className="btn bg-white text-success mx-2" to='/cart'>My Cart {" "}{/*<Badge pill-bg='danger'>{data.length} </Badge>*/}
       </Link>
       {cartView ? <Modal onClose={() => setCartView(false)}><Cart></Cart></Modal> : ""}
       <button className="btn bg-white text-success mx-2" onClick={handleLogout}>Log out
