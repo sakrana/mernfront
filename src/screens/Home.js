@@ -8,7 +8,7 @@ export default function Home() {
 const [foodCat,setFoodCat]=useState([]);
 const [foodItem,setFoodItem]=useState([]);
 const loaddata=async ()=>{
-  let response=await fetch("https://mernback-j808.onrender.com/api/fooddata",{
+  let response=await fetch("https://mernback-1-zoea.onrender.com/api/fooddata",{
     method:"POST",
     headers:{
       'Content-Type':"application/json"
