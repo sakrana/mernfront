@@ -15,7 +15,7 @@ export default function Cart() {
     }
     const handleCheckOut=async()=>{
         let userEmail=localStorage.getItem("userEmail")
-        let response=await fetch("https://mernback-j808.onrender.com/api/OrderData",{
+        let response=await fetch("https://mernback-1-zoea.onrender.com/api/OrderData",{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
