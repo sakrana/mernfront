@@ -6,7 +6,7 @@ export default function Signup() {
     const handleSubmit=async(e)=>{
    
         e.preventDefault();
-        const response= await fetch("https://mernback-j808.onrender.com/api/createuser",{
+        const response= await fetch("https://mernback-1-zoea.onrender.com/api/createuser",{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
